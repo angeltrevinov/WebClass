@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #4F545F;
+    font-size: 13px;
+    font-family: Verdana, sans-serif;
+}
+
+h1 {
+    padding: 20px;
+    margin: 0;
+    color: white;
+    background-color: #55B3C5;
+}
+
+fieldset {
+    border: 2px dotted #000;
+    margin: 20px;
+    padding: 20px;
+    
+}
+
+legend {
+    font-size: 1.3em; /* Multiplies the biggest font with 1.3*/
+    font-weight: 900;
+}
+
+/*targets the div child elements from the fieldset*/
+fieldset > div {
+    border: 1px solid #627880;
+    color: pink;
+    background-image: url("../assets/img.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 50%;
+}
+
+.formElement, select {
+    padding: 5px 10px;
+    width: 250px;
+}
+
+.formButton {
+    text-align: center;
+    padding: 10px 25px;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+
+#submitButton {
+    color: green;
+}
+
+#cancelButton {
+    color: red;
+}
+/*target all the fieldsets and all the div inside the fieldset*/
+fieldset div {
+    
+}

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Registry Form</title>
 </head>
 <body>
@@ -16,26 +17,26 @@
 <form>
     <fieldset>
         <legend>New account registry</legend>
-        <p>Your information is safe with us</p>
+        <div>Your information is safe with us</div>
         
         <label for="Name">Complete Name</label>
         <br>
-        <input type="text" id="Name">
+        <input type="text" id="Name" class="formElement">
         <br>
         
         <label for="Email">Email</label>
         <br>
-        <input type="email" id="Email">
+        <input type="email" id="Email" class="formElement">
         <br>
 
         <label for="Password">Password</label>
         <br>
-        <input type="password" id="Password">
+        <input type="password" id="Password" class="formElement">
         <br>
 
         <label for="PasswordCom">Password Comfirmation</label>
         <br>
-        <input type="password" id="PasswordCom">
+        <input type="password" id="PasswordCom" class="formElement">
         <br>
 
         <label for="Country">Country</label>
@@ -47,15 +48,15 @@
         </select>
         <br>
 
-        <input type="radio" id="men" name="sex">
+        <input type="radio" id="men" name="sex" id="Men">
         <label for="men">Masculino</label>
         <br>
-        <input type="radio" id="Woman" name="sex">
+        <input type="radio" id="Woman" name="sex" id="Woman">
         <label for="Woman">Femenino</label>
         <br>
         
-        <button type="button">Cancel</button>
-        <button type="button">Submit</button>
+        <button id="cancelButton" type="button" class="formButton">Cancel</button>
+        <button id="submitButton" type="button" class="formButton">Submit</button>
         
     </fieldset>
 </form>
