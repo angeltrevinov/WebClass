@@ -60,3 +60,22 @@ fieldset > div {
 fieldset div {
     
 }
+
+#newMenu {
+    list-style: none;
+    background-color: #ccc;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#newMenu > li {
+    float: left;
+    padding: 20px;
+}
+
+#newMenu > li:hover {
+    color: white;
+    cursor: pointer;
+    background-color: #999;
+}
