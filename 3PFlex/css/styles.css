@@ -1,0 +1,96 @@
+
+div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.leftSide{
+    text-align: center;
+    justify-content: space-around;
+}
+
+.rightSide{
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+.rightTop, .rightBottom{
+    text-align: center;
+    justify-content: space-around;
+}
+
+
+
+.rightItem{
+    margin: 5px;
+    text-align: center;
+}
+
+.leftItem1{
+    margin: 5px;
+    align-self: flex-end;
+}
+
+.leftItem2{
+    margin: 5px;
+    align-self: center;
+}
+
+.leftItem3 {
+    margin: 5px;
+    align-self: center;
+}
+
+@media(min-width: 600px) and (max-width: 990px) {
+    
+    .mainContainer {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rightTop, .rightBottom{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .leftSide {
+        width: 30%;
+    }
+    
+    .rightSide {
+        width: 70%;
+    }
+}
+
+@media(min-width:  991px) {
+
+    .leftSide{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .leftItem1, .leftItem2, .leftItem3{
+        width: 150px;
+    }
+
+    .leftItem3{
+        margin-left: auto;
+    }
+
+    .rightSide{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .rightTop, .rightBottom{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rightItem{
+        width: 60%;
+        margin: 0 auto;
+    }
+}
