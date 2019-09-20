@@ -1,0 +1,70 @@
+/* This removes the default padding that html adds */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: green;
+    color: white;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+nav > ul > li {
+    padding: 5px;
+    cursor: pointer;
+}
+
+main {
+    background-color: pink;
+    color: white;
+}
+
+form {
+    padding: 20px;
+}
+
+fieldset {
+    padding: 20px;
+}
+
+.elementForm {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: flex-end;
+}
+
+.btnButton {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    margin: auto;
+    background-color: aqua;
+    padding: 5px;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+input {
+    width: 30%;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+}
